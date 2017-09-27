@@ -4,6 +4,10 @@ html,body,.wrap{
     background: #ccc;
     overflow: hidden;
 }
+*{
+    margin:0;
+    padding:0;
+}
 body{
     font-size: .32rem;
 }
@@ -29,6 +33,7 @@ p{
 }
 .main{
     flex: 1;
+    overflow: hidden;
 }
 .zhe_box{
     position: absolute;
